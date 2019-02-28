@@ -5,6 +5,12 @@
 ## Explanation
 GraphQL schema stitching is an excellent way to enhance APIs with a wealth of extra data. The concept is simple and the execution is straight forward. The idea is simply to access two or more APIs in one.
 
+We will combine 4 services:
+Yelp
+Google
+Darksky
+[GraphCMS'](https://www.graphcms.com)
+
 The execution involves four steps.
 
 1. Introspect the remote APIs. Finding out what schema structure you have to work with.
@@ -29,5 +35,8 @@ API | Requirements
 Geocode API | You need to build your own Geocode API. You can run this repo locally, or host it with Zeit Now.
 Content API | Feel free to use the one we have provided! No limits!
 Yelp API | Register for a yelp authentication key and add it to a .env file. `YELP_TOKEN=...`
+
+1. Install dependencies with `yarn`
+2. Run the server with `yarn start`
 
 Happy coding!
