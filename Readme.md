@@ -9,7 +9,7 @@ We will combine 4 services:
 Yelp
 Google
 Darksky
-[GraphCMS'](https://www.graphcms.com)
+[GraphCMS](https://www.graphcms.com)
 
 The execution involves four steps.
 
